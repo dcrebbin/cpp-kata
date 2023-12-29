@@ -16,7 +16,7 @@ void bubbleSort(int arr[], int N)
 {
     cout << "Bubble sorting" << endl;
     bool isSwapped;
-    for (int i = 0; i < N - 1; i++)
+    for (int i = 0; i < N; i++)
     {
         isSwapped = false;
         for (int j = 0; j < N - i - 1; j++)
