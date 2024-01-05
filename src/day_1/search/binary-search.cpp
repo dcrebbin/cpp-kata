@@ -1,12 +1,15 @@
 #include <iostream>
 #include <chrono>
+#include <stack>
 using namespace std;
 
 void binarySearch(int arr[], int size, int needle)
 {
     int low = 0;
     int high = size;
-    do
+    stack<int> st;
+    strcmp
+    do  
     {
         int medium = floor(low + (high - low) / 2);
         int value = arr[medium];
